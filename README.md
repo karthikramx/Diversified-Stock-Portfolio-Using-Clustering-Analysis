@@ -29,13 +29,13 @@ https://www.kaggle.com/datasets/andrewmvd/sp-500-stocks?select=sp500_companies.c
 
 ### Approach
 The following features were calculated from the 10 year daily historical data for all the stocks in the S&P 500 index
-• Correlation with SP500 index value
-• Beta with SP500 index value
-• Annualized Return on equity (daily returns)
-• Annualized Volatility on equity (daily returns)
-• Sharpe Ratio
-• Daily Change in price
-• Daily Variation in price
+- Correlation with SP500 index value
+- Beta with SP500 index value
+- Annualized Return on equity (daily returns)
+- Annualized Volatility on equity (daily returns)
+- Sharpe Ratio
+- Daily Change in price
+- Daily Variation in price
 
 ### K-Means Clustering
 The following results depict the optimal value for choosing K value using a spree plot and the clusters convex formed after choosing K =4. The stock symbols are used to represent its relative position in the cluster.
