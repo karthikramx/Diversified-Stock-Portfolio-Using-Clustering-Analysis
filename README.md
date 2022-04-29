@@ -1,1 +1,1 @@
-# Diversified-Stock-Portfolio-Using-Clustering-Analysis
+# Diversified Stock Portfolio Using Clustering Analysis
