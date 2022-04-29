@@ -21,7 +21,7 @@ The following features were calculated from the 10 year daily historical data fo
 #### K-Means Clustering
 The following results depict the optimal value for choosing K value using a spree plot and the clusters convex formed after choosing K =4. The stock symbols are used to represent its relative position in the cluster.
 
-![aly_text](https://github.com/karthikramx/Diversified-Stock-Portfolio-Using-Clustering-Analysis/blob/main/Images/1.png)
+![aly_text](https://github.com/karthikramx/Diversified-Stock-Portfolio-Using-Clustering-Analysis/blob/main/Images/1.png =100x20)
 
 ![aly_text](https://github.com/karthikramx/Diversified-Stock-Portfolio-Using-Clustering-Analysis/blob/main/Images/2.png)
 
