@@ -78,5 +78,7 @@ For validating the process of using clustering for creating a diversified portfo
 ![aly_text](https://github.com/karthikramx/Diversified-Stock-Portfolio-Using-Clustering-Analysis/blob/main/Images/8.png)
 
 
-
-
+### Conclusion
+- It is observed that the orange portfolio, which is a collection of stocks with the highest Sharpe ratio, outperformed the S&P500 index. The portfolio formed using k-means clustering (red line) has a better performance.
+- This indicates that the K-Means clustering successfully created a diversified portfolio in terms of all the features mentioned during clustering and not only outperformed the S&P 500 index but also a collection of stocks with best historical performance.
+- The back-testing results indicate that the k-means portfolio was correlated with the index during COVID- 19 and recovered slower than the orange index. However, as the portfolio was highly diversified the k- means portfolio had a far better long-term performance in comparison with the orange portfolio
