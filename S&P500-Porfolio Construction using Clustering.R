@@ -22,6 +22,8 @@ library(factoextra)
 library(hrbrthemes)
 require(mosaic)
 library(tidyverse)
+library(corrplot)
+library(Hmisc)
 
 
 ####################################################################
@@ -29,9 +31,9 @@ library(tidyverse)
 ####################################################################
 
 options(warn=-1)
-companies = read.csv('sp500_companies.csv')
-index = read.csv('sp500_index.csv')
-stocks = read.csv('sp500_stocks.csv')
+companies = read.csv('Data/sp500_companies.csv')
+index = read.csv('Data/sp500_index.csv')
+stocks = read.csv('Data/sp500_stocks.csv')
 
 str(companies)
 str(index)
@@ -213,6 +215,13 @@ cluster_features <- na.omit(cluster_features)
 head(cluster_features)
 
 
+####################################################################
+#################### DIMENSIONALITY REDUCTION ######################
+####################################################################
+
+correlation_matrix = rcorr(as.matrix(df.norm[,names(df.norm)]))
+corrplot(correlation_matrix$r, method="circle")
+corrplot(correlation_matrix$r, method="number")
 
 ####################################################################
 ########################## CLUSTERING ##############################
