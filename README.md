@@ -38,7 +38,7 @@ The following features were calculated from the 10 year daily historical data fo
 - Daily Change in price
 - Daily Variation in price
 
-### Calculating feature vectors and performing dimensionality reduction
+### Exploring intra feature correlation matrix using correlogram
 
 The following plots show the correlogram plotted from the correlation matrix on the feature vectors. 
 
