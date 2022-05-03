@@ -38,6 +38,16 @@ The following features were calculated from the 10 year daily historical data fo
 - Daily Change in price
 - Daily Variation in price
 
+### Calculating feature vectors and performing dimensionality reduction
+
+The following plots show the correlogram plotted from the correlation matrix on the feature vectors. 
+
+<p float="left" align="center">
+<img src="https://github.com/karthikramx/Diversified-Stock-Portfolio-Using-Clustering-Analysis/blob/main/Images/corel_mat1.png" alt="drawing"     style="width:400px;"/>
+
+<img src="https://github.com/karthikramx/Diversified-Stock-Portfolio-Using-Clustering-Analysis/blob/main/Images/corel_mat2.png" alt="drawing" style="width:400px;"/>
+</p>
+
 ### K-Means Clustering
 The following results depict the optimal value for choosing K value using a spree plot and the clusters convex formed after choosing K =4. The stock symbols are used to represent its relative position in the cluster.
 
@@ -47,7 +57,7 @@ The following results depict the optimal value for choosing K value using a spre
 <img src="https://github.com/karthikramx/Diversified-Stock-Portfolio-Using-Clustering-Analysis/blob/main/Images/2.png" alt="drawing" style="width:400px;"/>
 </p>
 
-### Clusterwise Summary Statistics and Visualization
+### Correlation Analysis
 
 Post K- Means clustering, Cluster wise distribution of Annualized returns, Annualized Volatility, Sharpe ratio and Beta were plotted. It can be observed that there is a significant difference in at least two or more clusters both in terms of mean value and standard deviation.
 
@@ -66,6 +76,8 @@ Post K- Means clustering, Cluster wise distribution of Annualized returns, Annua
 <p align="center">
   <img width="810" height="600" src="https://github.com/karthikramx/Diversified-Stock-Portfolio-Using-Clustering-Analysis/blob/main/Images/Ann%20returns%20vs%20Ann%20vol%20vs%20Clusters.png">
 </p>
+
+
 
 
 ### Backtesting results KMeans Portfolio vs the S&P500 index cumulative returns
