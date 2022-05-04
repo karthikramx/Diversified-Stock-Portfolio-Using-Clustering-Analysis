@@ -1,9 +1,11 @@
 # Creating a Diversified Stock Portfolio Using Clustering Analysis
-
+[![LinkedIn][linkedin-shield]][linkedin-url]
+#
 ![R Programming](https://img.shields.io/badge/R%20-Programming-blue)
-![Last Commit](https://img.shields.io/github/last-commit/karthikramx/Diversified-Stock-Portfolio-Using-Clustering-Analysis)
+![Last Commit](https://img.shields.io/github/last-commit/karthikramx/Diversified-Stock-Portfolio-Using-Clustering-Analysis) 
 
 ### About
+
 The aim of the project is to create a diversified portfolio of stocks using clustering analysis and back test its performance against the historical data of a stock index. For this we look at the S&P500 index, that is deemed to be the most accurate quantifier of the US economy. S&P500 is the comparable standard for many funds in the marketplace.
 
 The attempt is to use K-Means clustering based on Euclidian distances to understand the effect of different parameters that affect the stock performance. The comprehension of stock performance will be aided by dividing stocks into clusters that have stocks with similar performance. These clusters provide valuable information to create stock portfolios. 
@@ -94,3 +96,25 @@ For validating the process of using clustering for creating a diversified portfo
 - It is observed that the orange portfolio, which is a collection of stocks with the highest Sharpe ratio, outperformed the S&P500 index. The portfolio formed using k-means clustering (red line) has a better performance.
 - This indicates that the K-Means clustering successfully created a diversified portfolio in terms of all the features mentioned during clustering and not only outperformed the S&P 500 index but also a collection of stocks with best historical performance.
 - The back-testing results indicate that the k-means portfolio was correlated with the index during COVID- 19 and recovered slower than the orange index. However, as the portfolio was highly diversified the k- means portfolio had a far better long-term performance in comparison with the orange portfolio
+
+### Contact
+
+Karthik Ram - [LinkedIn](https://www.linkedin.com/in/karthikramx/)
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/Vincentho711/Interactive-Brokers-Trading-Bot?style=for-the-badge
+[contributors-url]: https://github.com/Vincentho711/Interactive-Brokers-Trading-Bot/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Vincentho711/Interactive-Brokers-Trading-Bot?style=for-the-badge
+[forks-url]: https://github.com/Vincentho711/Interactive-Brokers-Trading-Bot/network/members
+[stars-shield]: https://img.shields.io/github/stars/Vincentho711/Interactive-Brokers-Trading-Bot?style=for-the-badge
+[stars-url]: https://github.com/Vincentho711/Interactive-Brokers-Trading-Bot/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Vincentho711/Interactive-Brokers-Trading-Bot?style=for-the-badge
+[issues-url]: https://github.com/Vincentho711/Interactive-Brokers-Trading-Bot/issues
+[license-shield]: https://img.shields.io/github/license/Vincentho711/Interactive-Brokers-Trading-Bot?style=for-the-badge
+[license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
+[forthebadge made-with-python]: http://ForTheBadge.com/images/badges/made-with-python.svg
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/karthikramx/
